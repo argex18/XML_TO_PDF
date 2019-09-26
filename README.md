@@ -1,3 +1,9 @@
+UPDATE 26/09/2019:
+- Solved several problems regarding to the pdf conversion.
+- The txt folder was renamed to pdf folder
+- In the new pdf folder (previously txt), converted pdf files are going to be saved in addition to the txt files 
+
+
 This script is being developed for helping all those people that want to read the data of their
 electronic invoice without using uncomfortable web services which don't often allow to user a reading
 of multiple files. 
