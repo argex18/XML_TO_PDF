@@ -4,7 +4,7 @@ from sys import exit
 from time import sleep
 import traceback as trace
 
-for filename in os.listdir(path="C:\\Users\\Arge\\Desktop\\XmlToPdf\\xml"):
+for filename in os.listdir(path=os.getcwd() + "\\xml"):
     if filename.endswith(".xml"):
         root = et.parse("xml/" + filename).getroot()
         for element in root[0][1][0]:
@@ -20,7 +20,7 @@ for filename in os.listdir(path="C:\\Users\\Arge\\Desktop\\XmlToPdf\\xml"):
                 break
     
         try:
-            path = "C:\\Users\\Arge\\Desktop\\XmlToPdf\\pdf\\" + data + "_" + denominazione + "_" + numero + ".txt"
+            path = os.getcwd() + "\\pdf\\" + data + "_" + denominazione + "_" + numero + ".txt"
             pdfcreator = "PDFCreator.exe /PrintFile=\"" + path + "\""
             with open(path, "w") as f:
                 f.write("----------------------------- TESTA FATTURA -----------------------------\n")
