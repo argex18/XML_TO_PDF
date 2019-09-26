@@ -1,4 +1,6 @@
 UPDATE 26/09/2019:
+WARNING: TO MAKE THE PDF CONVERSION WORKING, IT'S NOW REQUIRED PDFCreator, free distribution, with the automatic saving mode enabled.
+	 OTHERWISE, A FATAL ERROR IS GOING TO BE THROWN	 
 - Solved several problems regarding to the pdf conversion.
 - The txt folder was renamed to pdf folder
 - In the new pdf folder (previously txt), converted pdf files are going to be saved in addition to the txt files 
