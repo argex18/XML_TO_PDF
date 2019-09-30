@@ -1,3 +1,9 @@
+UPDATE 30/09/2019:
+WARNING: TO MAKE THE PDF CONVERSION WORKING, IT'S NOW REQUIRED PDFCreator, free distribution, with the automatic saving mode enabled.
+	 OTHERWISE, A FATAL ERROR IS GOING TO BE THROWN
+- Added to the script the deleting of text files created before pdf conversion
+
+
 UPDATE 26/09/2019:
 WARNING: TO MAKE THE PDF CONVERSION WORKING, IT'S NOW REQUIRED PDFCreator, free distribution, with the automatic saving mode enabled.
 	 OTHERWISE, A FATAL ERROR IS GOING TO BE THROWN	 
